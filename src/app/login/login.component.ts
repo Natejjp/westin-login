@@ -20,14 +20,14 @@ export class LoginComponent {
     if (this.username === correctUsername && this.password === correctPassword) {
       this.loggedIn = true;
       this.attemptedLogin = false;
-      this.message = 'Good job Westin!';
+      this.message = 'Good job Westin! ';
       setTimeout(() => {
         this.loggedIn = false; // Reset login state after a delay
       }, 5000); // Adjust the delay as needed
     } else {
       this.loggedIn = false;
       this.attemptedLogin = true;
-      this.message = 'Try Again Westin!';
+      this.message = 'Try Again Westin! ';
     }
   }
 }
