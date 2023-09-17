@@ -48,6 +48,7 @@
 
 .message{
   font-size: 25px;
+  color: black;
 }
 /* Style for success message */
 .message.success {
